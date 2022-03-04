@@ -1,10 +1,10 @@
 ## Input dirs
-dir_fq_raw=data/fastq
-dir_fa_itsx=results/fasta_itsx
+dir_fq_raw=data/fastq                  # Dir with original FASTQ files
+dir_fa_itsx=results/fasta_itsx         # Dir with ITSx-derived FASTA files
 
 ## Output dirs
-dir_fa_fix=results/fasta_fixnames
-dir_fq_itsx=results/fastq_itsx
+dir_fa_fix=results/fasta_fixnames      # Dir with FASTA files with fixed headers
+dir_fq_itsx=results/fastq_itsx         # Output ITS-only FASTQ files
 mkdir -p "$dir_fa_fix" "$dir_fq_itsx"
 
 ## Fix FASTA headers
